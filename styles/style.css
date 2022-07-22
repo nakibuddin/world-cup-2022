@@ -207,8 +207,7 @@ body{
         justify-content: center;
         align-items: center;        
         row-gap: 20px;        
-        /* margin: 0 10px 20px 10px; */
-        /* background-color: red; */
+        /* margin: 0 10px 20px 10px; */        
 
     }
     .blog-container2{        
@@ -218,8 +217,7 @@ body{
         flex-direction: column;
         row-gap: 20px;    
         margin-left: 120px;
-        /* margin: 0 10px 0 10px; */
-        /* background-color: red;     */
+        /* margin: 0 10px 0 10px; */        
     }  
     .fixed-side-part{
         width: 212px;
