@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 body{
-    margin: 0;
-    margin-top: 50px; /* must remove after test purpose */
-    font-family: 'Poppins', sans-serif;            
+    margin: 0;    
+    font-family: 'Poppins', sans-serif;         
 }
 
 /*------------------------------------- header part ---------------------------------*/
@@ -151,6 +150,9 @@ body{
     color:rgb(80, 80, 80);            
     margin: 4% 2% 0 12% ;
 }
+.viewAll-button{    
+    display: none;
+}
 
 /*------------------------------------- footer part ---------------------------------*/
 .footer-container{
@@ -182,9 +184,6 @@ body{
 .footer-button-container a:hover{  
     background-color: rgb(221, 0, 0);
 }    
-.viewAll-button{    
-    display: none;
-}
 .social-icon a{
     display: none;  
 }
@@ -195,9 +194,8 @@ body{
     /* ----- header part ------ */
     .for-justify-content{
         display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        justify-content: center;      
+        margin: 5%;
     }
 
     /* --- main part --- */
@@ -210,7 +208,7 @@ body{
         align-items: center;        
         row-gap: 20px;        
         /* margin: 0 10px 20px 10px; */
-        /* background-color: red; */
+        background-color: red;
 
     }
     .blog-container2{        
@@ -246,7 +244,7 @@ body{
         padding-top: 10px;
     }
     .blog{            
-        /* width: 100%; */
+        /* width: 90%; */
         width: 260px;
         height: 300px;
         background-color: white;
